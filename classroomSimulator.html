@@ -14,6 +14,10 @@
         margin-right: 10px;
         border: 2px solid black;
       }
+      .featuresList{
+        position: relative;
+        left: 50%;
+      }
       </style>
   </head>
 
@@ -25,14 +29,17 @@
 <p style="text-align:center">
   This was my final project for the Software Design course; one of the options was to create a program which implemented 5 features from a list. <br>
   The features I chose were: <br>
-  <ul style="text-align:center">
+</p>
+
+<div class="featuresList">
+  <ul>
     <li>Maintain the single responsibility principle by having multiple classes that each do only one thing</li>
     <li>Use at least one interface in your project design</li>
     <li>Use the decorator pattern to extend a class</li>
     <li>Implement multiple web pages or Windows forms</li>
     <li>Present your work-in-progress at the CIS Showcase</li>
   </ul>
-</p>
+</div>
 <p style="text-align:center"></p>
   I decided to create a simulator of walking through Tower Hall (where I have had all but one of my in-person classes) as classes are in session. <br>
   Each page represents a floor of the building; when you click on the tab for a floor in the navigation bar, <br>
