@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <head>
-    <title>
-      Blocky
-    </title>
-    <style>
-      h1{
-          color: white;
-      }
-      body{
-          background-color: #299cff;
-      }
-      </style>
-  </head>
+  <title>
+    Falling Sand
+  </title>
+  <style>
+    h1{
+        color: white;
+    }
+    body{
+        background-color: #299cff;
+    }
+    .introduction{
+        left: 50%;
+    }
+    </style>
+</head>
 
 <body>
-<h1 style="text-align:center">Blocky</h1>
+<h1 style="text-align:center">Falling Sand</h1>
 
-<!---<img src="personalPhoto.jpg" height="300px" width="350px" class="center">--->
-
-<!---
-<p style="text-align:center">
-  I am a CIS (Computer Information Systems) major at the College of St. Scholastica; I'm also in the Honors Program and minoring in Deaf Language & Culture as well as English.
+<p class="introduction">
+    This project came in two parts; the first part was to generate the board, and the second part was to make it interactive. <br>
+    The board was generated using a tree structure. The board itself was the parent, and each smaller section was a descendant.
 </p>
---->
+<br>
+<p>
+    A randomly generated board:
+</p>
+<img src="blockyPics/generateBoard.png" height="640" width="670px" class="center">
+<p>
+    Players could click on the board to highlight a block, then use the up arrow key to select its parent:
+</p>
+<img src="blockyPics/highlight1.png" height="640" width="670px" class="center">
+<img src="blockyPics/highlight2.png" height="640" width="670px" class="center">
+<p>
+    Using the H key, players could swap the children of a block horizontally:
+</p>
+<img src="blockyPics/preSwap.png" height="640" width="670px" class="center">
+<img src="blockyPics/swapHorizontal.png" height="640" width="670px" class="center">
+<p>
+  Using the V key, players could swap the children of a block vertically:
+</p>
+<img src="blockyPics/preSwap.png" height="640" width="670px" class="center">
+<img src="blockyPics/swapVertical.png" height="640" width="670px" class="center">
+<p>
+  Using the left arrow key, players could rotate the children of a block counterclockwise:
+</p>
+<img src="blockyPics/preRotate.png" height="640" width="670px" class="center">
+<img src="blockyPics/rotateLeft.png" height="640" width="670px" class="center">
+<p>
+  Using the right arrow key, players could rotate the children of a block clockwise:
+</p>
+<img src="blockyPics/preRotate.png" height="640" width="670px" class="center">
+<img src="blockyPics/rotateRight.png" height="640" width="670px" class="center">
+<p>
+  Using the spacebar or S key, players could smash a block to generate new children for it:
+</p>
+<img src="blockyPics/preSmash.png" height="640" width="670px" class="center">
+<img src="blockyPics/smash.png" height="640" width="670px" class="center">
 
 <h3>Back to Home</h3>
 <a href="index.html">Home</a> <br>
