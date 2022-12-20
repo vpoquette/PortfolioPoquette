@@ -5,55 +5,65 @@
   </title>
 
   <style>
-    body{
-    background-color: #299cff;
+  body{
+		background-color: #299cff;
     }
-    h1{
-      color: #8e04c5;
+	h1{
+		color: white;
+	  text-align: center;
     }
     * {
 		  box-sizing: border-box;
 	  }
-	  .container {
+	.container {
 		  width:100%;
 		  margin: 0 auto;
+		  padding-bottom:150px;
 	  }
-	  .row {
+	.row {
 		  height:auto; /*set height*/
 		  width:100%;
 		  padding:10px;
 		  text-align: center;
-	  }
-	  ul{
+	}
+	ul{
 		  text-align:left;
-	  }
-	  .col4 {
-		  border:2px solid blue;
-		  width:23.5%;
+	}
+  img{
+    left: 50%;
+  }
+  .col4 {
+      border:2px solid blue;
 		  float:left;
-		  height:100%;
-		  margin-right:1.5%;   
+		  height:100%;   
 		  background-color: #1E7BCC;	
-		  color: #31D670;
-	  }
-	  .col4:last-child {
+		  color: #31D670;    
+		  width:23.5%;
+		  margin-right:1.5%;   
+	}
+	.col4:last-child{
 		  margin-right:0;
-	  }
+	}
+	.contact{
+		text-align: center;
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+	}
   </style>
 
 </head>
 
 <body>
-<h1 style="text-align:center">Veronica Poquette</h1>
+<h1>Veronica Poquette</h1>
 
 <img src="personalPhoto.jpg" height="300px" width="350px" class="center">
 
-<h3 style="text-align:center">Hello and welcome to my portfolio.</h3>
-
+<h3 style="text-align:center">About Me</h3>
 <div class="container">
 	<div class="row">
     <div class="col4">
-		  Currently involved
+		  Currently involved on campus
       <ul>
         <li>Computer Information Systems major</li>
         <li>Honors program</li>
@@ -93,14 +103,17 @@
 		</div>
   </div>	
 </div>
-
+<br> <br>
 <h3>Projects</h3>
-<a href="fallingSand.html">Falling Sand</a> <br>
-<a href="blocky.html">Blocky</a> <br>
-<a href="classroomSimulator.html">Classroom Simulator</a> <br>
+<ul>
+	<li><a href="classroomSimulator.html">Classroom Simulator</a></li>
+	<li><a href="blocky.html">Blocky</a></li>
+	<li><a href="fallingSand.html">Falling Sand</a></li>
 <br>
-<a href="contact.html">Contact Me</a>
-
+<br>
+<div class="contact">
+	<a href="contact.html" style="center">Contact Me</a>
+</div>
 </body>
 </html>
 
